@@ -1,0 +1,16 @@
+C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan.App\bin\Debug\net5.0\KissKartan.App.exe
+C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan.App\bin\Debug\net5.0\KissKartan.App.deps.json
+C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan.App\bin\Debug\net5.0\KissKartan.App.runtimeconfig.json
+C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan.App\bin\Debug\net5.0\KissKartan.App.runtimeconfig.dev.json
+C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan.App\bin\Debug\net5.0\KissKartan.App.dll
+C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan.App\bin\Debug\net5.0\ref\KissKartan.App.dll
+C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan.App\bin\Debug\net5.0\KissKartan.App.pdb
+C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan.App\obj\Debug\net5.0\KissKartan.App.csproj.AssemblyReference.cache
+C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan.App\obj\Debug\net5.0\KissKartan.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan.App\obj\Debug\net5.0\KissKartan.App.AssemblyInfoInputs.cache
+C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan.App\obj\Debug\net5.0\KissKartan.App.AssemblyInfo.cs
+C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan.App\obj\Debug\net5.0\KissKartan.App.csproj.CoreCompileInputs.cache
+C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan.App\obj\Debug\net5.0\KissKartan.App.dll
+C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan.App\obj\Debug\net5.0\ref\KissKartan.App.dll
+C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan.App\obj\Debug\net5.0\KissKartan.App.pdb
+C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan.App\obj\Debug\net5.0\KissKartan.App.genruntimeconfig.cache
