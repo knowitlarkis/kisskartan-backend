@@ -198,9 +198,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chrwri\\source\\repos\\kisskartan-backend\\KissKartan\\KissKartan\\KissKartan.csproj",
-      "projectName": "KissKartan",
-      "projectPath": "C:\\Users\\chrwri\\source\\repos\\kisskartan-backend\\KissKartan\\KissKartan\\KissKartan.csproj",
+      "projectUniqueName": "C:\\Users\\chrwri\\source\\repos\\kisskartan-backend\\KissKartan\\KissKartan\\KissKartan.API.csproj",
+      "projectName": "KissKartan.API",
+      "projectPath": "C:\\Users\\chrwri\\source\\repos\\kisskartan-backend\\KissKartan\\KissKartan\\KissKartan.API.csproj",
       "packagesPath": "C:\\Users\\chrwri\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\chrwri\\source\\repos\\kisskartan-backend\\KissKartan\\KissKartan\\obj\\",
       "projectStyle": "PackageReference",

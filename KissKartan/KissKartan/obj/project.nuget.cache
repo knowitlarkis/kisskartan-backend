@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7KXRd7UEW36G/Bel5qPSCMWJkJ9ZrhgDvTR9DJ0NUQ0lC0vgrYQZf3b7y+5BsJAnuYhwYb1ln24LEaEQ+VRcfg==",
+  "dgSpecHash": "kMTkkCiqAAiLBKUyrR79Cbs9kXcAlZMsppzPxSAxyTSlZC24k3Ox0G2Id3GeiAtiI1IWidG5fi2iRp52/dkyHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chrwri\\source\\repos\\kisskartan-backend\\KissKartan\\KissKartan\\KissKartan.csproj",
+  "projectFilePath": "C:\\Users\\chrwri\\source\\repos\\kisskartan-backend\\KissKartan\\KissKartan\\KissKartan.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chrwri\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\chrwri\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
