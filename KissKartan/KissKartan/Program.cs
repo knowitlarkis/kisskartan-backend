@@ -18,8 +18,35 @@ namespace KissKartan
         {
             ToiletService serv = new ToiletService();
             RatingService servr = new RatingService();
+
+            List<TypeProperty> types = new List<TypeProperty>()
+            {
+                new TypeProperty
+                {
+                    Type = "Accessible"
+                },new TypeProperty
+                {
+                    Type = "Free"
+                },new TypeProperty
+                {
+                    Type = "Pay"
+                },new TypeProperty
+                {
+                    Type = "Public"
+                },new TypeProperty
+                {
+                    Type = "Urinal"
+                },new TypeProperty
+                {
+                    Type = "Baby"
+                },new TypeProperty
+                {
+                    Type = "Private"
+                },
+            };
             List<Toilet> toilets = new List<Toilet>()
         {
+                //LÄGG TILL LISTA AV TYPEPROPERTIES
             new Toilet{
                 Location = "59.86029306150929, 17.638249261540285",
                 Description = "Offentlig toalett i St. Per-gallerian, en trappa ner",
@@ -61,6 +88,11 @@ namespace KissKartan
 
         };
 
+            //SKAPA EN TYPESERVICE MED GET & GETALL
+            foreach (var item in types)
+            {
+                servr.Add(item);
+            }
             foreach (var item in toilets)
             {
                 serv.Add(item);
