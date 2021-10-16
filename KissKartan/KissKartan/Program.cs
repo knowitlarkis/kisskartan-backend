@@ -6,6 +6,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Data.SQLite;
+using KissKartan.API.Models;
 
 namespace KissKartan
 {
@@ -13,7 +15,7 @@ namespace KissKartan
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            //CreateHostBuilder(args).Build().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
@@ -22,5 +24,6 @@ namespace KissKartan
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
     }
 }

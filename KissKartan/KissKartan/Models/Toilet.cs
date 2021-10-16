@@ -12,7 +12,6 @@ namespace KissKartan.API.Models
         public string Location { get; set; }
         public string Description { get; set; }
         public bool IsFree { get; set; }
-        public Rating Rating { get; set; }
         public DateTime LastCleaned { get; set; }
 
     }

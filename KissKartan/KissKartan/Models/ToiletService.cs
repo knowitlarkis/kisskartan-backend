@@ -8,35 +8,28 @@ namespace KissKartan.API.Models
 {
     public class ToiletService
     {
+        ToiletContext db = new ToiletContext();
 
-        public List<Toilet> toilets = new List<Toilet>()
+        public Toilet[] GetAll()
         {
-            new Toilet{
-                Id = 1, Location = "59.86029306150929, 17.638249261540285",
-                Description = "Offentlig toalett i St. Per-gallerian, en trappa ner",
-                IsFree = true,
-                LastCleaned = DateTime.Today,
-                Rating = new Rating{Average = 4.0, Count = 8 }
-            },
-            new Toilet
-                {Id = 2, Location = "59.85821946252539, 17.646533452978318",
-                Description = "Offentlig toalett i stationshuset, bottenplan, kortbetalning",
-                IsFree = false,
-                LastCleaned = DateTime.Today.AddDays(-14),
-                Rating = new Rating{Average = 2.3, Count = 25 }
-            },
-            new Toilet
-                {Id = 1, Location = "59.85361904298998, 17.61361074332028",
-                Description = "Hemma hos Christoffer, swisha för att komma in",
-                IsFree = false,
-                LastCleaned = DateTime.Today.AddDays(-3),
-                Rating = new Rating{Average = 5.0, Count = 1}
-            }
-        };
+            return db.Toilets.ToArray();
+        }
 
-        public List<Toilet> GetAll()
+        public Toilet Get(int id)
         {
-            return toilets;
+            return db.Toilets.SingleOrDefault(o => o.Id == id);
+        }
+
+        public void Add(Toilet t)
+        {
+            db.Add(t);
+            db.SaveChanges();
+        }
+
+        public void Remove(Toilet t)
+        {
+            db.Remove(t);
+            db.SaveChanges();
         }
     }
 }

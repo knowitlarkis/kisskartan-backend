@@ -1,8 +1,12 @@
-﻿namespace KissKartan.API.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace KissKartan.API.Models
 {
     public class Rating
     {
-        public double Average { get; set; }
-        public int Count  { get; set; }
+        public int Id { get; set; }
+        [Range(1,5)]
+        public int Stars { get; set; }
+        public Toilet Toilet { get; set; }
     }
 }
