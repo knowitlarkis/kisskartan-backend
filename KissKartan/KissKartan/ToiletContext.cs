@@ -8,6 +8,7 @@ namespace KissKartan.API
     {
         public DbSet<Toilet> Toilets { get; set; }
         public DbSet<Rating> Ratings { get; set; }
+        public DbSet<TypeProperty> Types { get; set; }
         public string DbPath { get; private set; }
 
         public ToiletContext()

@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KissKartan.API.Migrations
 {
     [DbContext(typeof(ToiletContext))]
-    [Migration("20211016094637_InitialCreate")]
+    [Migration("20211016121141_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -60,6 +60,25 @@ namespace KissKartan.API.Migrations
                     b.ToTable("Toilets");
                 });
 
+            modelBuilder.Entity("KissKartan.API.Models.TypeProperty", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("ToiletId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Type")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ToiletId");
+
+                    b.ToTable("Types");
+                });
+
             modelBuilder.Entity("KissKartan.API.Models.Rating", b =>
                 {
                     b.HasOne("KissKartan.API.Models.Toilet", "Toilet")
@@ -67,6 +86,18 @@ namespace KissKartan.API.Migrations
                         .HasForeignKey("ToiletId");
 
                     b.Navigation("Toilet");
+                });
+
+            modelBuilder.Entity("KissKartan.API.Models.TypeProperty", b =>
+                {
+                    b.HasOne("KissKartan.API.Models.Toilet", null)
+                        .WithMany("Types")
+                        .HasForeignKey("ToiletId");
+                });
+
+            modelBuilder.Entity("KissKartan.API.Models.Toilet", b =>
+                {
+                    b.Navigation("Types");
                 });
 #pragma warning restore 612, 618
         }

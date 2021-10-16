@@ -40,6 +40,7 @@ namespace KissKartan.API.Models
 
         public double GetAverage(int toiletId)
         {
+
             return db.Ratings.Where(o => o.Toilet.Id == toiletId).Select(o => o .Stars).Average();
         }
 

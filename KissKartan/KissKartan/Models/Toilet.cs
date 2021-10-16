@@ -13,6 +13,7 @@ namespace KissKartan.API.Models
         public string Description { get; set; }
         public bool IsFree { get; set; }
         public DateTime LastCleaned { get; set; }
-
+        public TypeProperty[] Types { get; set; }
     }
+
 }

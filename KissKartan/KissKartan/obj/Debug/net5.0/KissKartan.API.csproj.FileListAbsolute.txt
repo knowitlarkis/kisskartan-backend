@@ -27,12 +27,6 @@ C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan\obj\Debug\
 C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\ref\KissKartan.API.dll
 C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\KissKartan.API.pdb
 C:\Users\chrwri\source\repos\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\KissKartan.API.genruntimeconfig.cache
-C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\KissKartan.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\KissKartan.API.AssemblyInfoInputs.cache
-C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\KissKartan.API.AssemblyInfo.cs
-C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\KissKartan.API.csproj.CoreCompileInputs.cache
-C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\KissKartan.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\KissKartan.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\bin\Debug\net5.0\appsettings.json
 C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\bin\Debug\net5.0\KissKartan.API.exe
@@ -79,6 +73,12 @@ C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\bin\Debug\net5.0
 C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\bin\Debug\net5.0\runtimes\osx-x64\native\SQLite.Interop.dll
 C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\bin\Debug\net5.0\runtimes\win-x64\native\SQLite.Interop.dll
 C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\bin\Debug\net5.0\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\KissKartan.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\KissKartan.API.AssemblyInfoInputs.cache
+C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\KissKartan.API.AssemblyInfo.cs
+C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\KissKartan.API.csproj.CoreCompileInputs.cache
+C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\KissKartan.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\KissKartan.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\staticwebassets\KissKartan.API.StaticWebAssets.Manifest.cache
 C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\staticwebassets\KissKartan.API.StaticWebAssets.xml
 C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\scopedcss\bundle\KissKartan.API.styles.css
@@ -88,3 +88,4 @@ C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0
 C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\ref\KissKartan.API.dll
 C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\KissKartan.API.pdb
 C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\KissKartan.API.genruntimeconfig.cache
+C:\Users\laraul\GitHub\kisskartan-backend\KissKartan\KissKartan\obj\Debug\net5.0\KissKartan.API.csproj.AssemblyReference.cache
