@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Z6fcQ9D01WJZHMyelqqhqesXrhUjvys0pKwizmqGhwneEZHGsoy0sYib+i8/OidTZlicxzUdQ4DvWSvO8dOuEw==",
+  "dgSpecHash": "Px6tXPnQ3zEPdihzL8RzKD6sszZZcOZWqrAjBgYQef6WinqMysc64U2IKZ+ATTIjm7hw30EdMLzta9rCzKGJ4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chrwri\\source\\repos\\kisskartan-backend\\KissKartan\\KissKartan.App\\KissKartan.App.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\laraul\\GitHub\\kisskartan-backend\\KissKartan\\KissKartan.App\\KissKartan.App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\laraul\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.115\\stub.system.data.sqlite.core.netstandard.1.0.115.nupkg.sha512",
+    "C:\\Users\\laraul\\.nuget\\packages\\system.data.sqlite.core\\1.0.115\\system.data.sqlite.core.1.0.115.nupkg.sha512"
+  ],
   "logs": []
 }

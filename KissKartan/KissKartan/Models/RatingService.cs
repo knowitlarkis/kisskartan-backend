@@ -20,9 +20,9 @@ namespace KissKartan.API.Models
             return db.Ratings.SingleOrDefault(o => o.Id == id);
         }
 
-        public Rating [] GetAll()
+        public List<Rating> GetAll()
         {
-            return db.Ratings.ToArray();
+            return db.Ratings.ToList();
         }
 
         public void Remove(Rating r)

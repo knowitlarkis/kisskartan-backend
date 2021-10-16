@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using KissKartan.API.Models;
+using System.IO;
 
 namespace KissKartan.API
 {
@@ -15,9 +16,9 @@ namespace KissKartan.API
         {
             var folder = Environment.SpecialFolder.LocalApplicationData;
             var path = Environment.GetFolderPath(folder);
-            DbPath = $"{path}{System.IO.Path.DirectorySeparatorChar}toilet.db";
-
+            DbPath = Directory.GetCurrentDirectory() + "/toilet.db";
         }
+
         protected override void OnConfiguring(DbContextOptionsBuilder options) => options.UseSqlite($"Data Source={DbPath}");
     }
 }

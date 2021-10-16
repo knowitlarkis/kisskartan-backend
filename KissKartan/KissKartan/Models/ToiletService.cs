@@ -10,9 +10,9 @@ namespace KissKartan.API.Models
     {
         ToiletContext db = new ToiletContext();
 
-        public Toilet[] GetAll()
+        public List<Toilet> GetAll()
         {
-            return db.Toilets.ToArray();
+            return db.Toilets.ToList();
         }
 
         public Toilet Get(int id)

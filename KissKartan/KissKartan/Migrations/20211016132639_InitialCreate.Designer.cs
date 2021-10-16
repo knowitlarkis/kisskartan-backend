@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KissKartan.API.Migrations
 {
     [DbContext(typeof(ToiletContext))]
-    [Migration("20211016121141_InitialCreate")]
+    [Migration("20211016132639_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

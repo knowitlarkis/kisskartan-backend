@@ -8,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Data.SQLite;
 using KissKartan.API.Models;
+using System.IO;
 
 namespace KissKartan
 {
@@ -18,32 +19,12 @@ namespace KissKartan
         {
             ToiletService serv = new ToiletService();
             RatingService servr = new RatingService();
+            TypePropertyService servt = new TypePropertyService();
 
-            List<TypeProperty> types = new List<TypeProperty>()
-            {
-                new TypeProperty
-                {
-                    Type = "Accessible"
-                },new TypeProperty
-                {
-                    Type = "Free"
-                },new TypeProperty
-                {
-                    Type = "Pay"
-                },new TypeProperty
-                {
-                    Type = "Public"
-                },new TypeProperty
-                {
-                    Type = "Urinal"
-                },new TypeProperty
-                {
-                    Type = "Baby"
-                },new TypeProperty
-                {
-                    Type = "Private"
-                },
-            };
+            var types = servt.GetAll();
+             TypeProperty ett = types[1];
+             TypeProperty two = types[2];
+
             List<Toilet> toilets = new List<Toilet>()
         {
                 //LÄGG TILL LISTA AV TYPEPROPERTIES
@@ -52,19 +33,21 @@ namespace KissKartan
                 Description = "Offentlig toalett i St. Per-gallerian, en trappa ner",
                 IsFree = true,
                 LastCleaned = DateTime.Today,
-                //Types = { free, TypeProperty.Accessible}
+                Types = new List<TypeProperty> { ett, two }
             },
             new Toilet
             { Location = "59.85821946252539, 17.646533452978318",
                 Description = "Offentlig toalett i stationshuset, bottenplan, kortbetalning",
                 IsFree = false,
-                LastCleaned = DateTime.Today.AddDays(-14)
+                LastCleaned = DateTime.Today.AddDays(-14),
+                Types = new List<TypeProperty> { ett, two }
             },
             new Toilet
                 {Location = "59.85361904298998, 17.61361074332028",
                 Description = "Hemma hos Christoffer, swisha för att komma in",
                 IsFree = false,
-                LastCleaned = DateTime.Today.AddDays(-3)
+                LastCleaned = DateTime.Today.AddDays(-3),
+                Types = new List<TypeProperty> { ett, two }
             }
 
 
@@ -87,12 +70,9 @@ namespace KissKartan
 
 
         };
-
+            
             //SKAPA EN TYPESERVICE MED GET & GETALL
-            foreach (var item in types)
-            {
-                servr.Add(item);
-            }
+
             foreach (var item in toilets)
             {
                 serv.Add(item);

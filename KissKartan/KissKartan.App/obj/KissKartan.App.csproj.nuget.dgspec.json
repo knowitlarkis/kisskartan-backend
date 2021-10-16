@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chrwri\\source\\repos\\kisskartan-backend\\KissKartan\\KissKartan.App\\KissKartan.App.csproj": {}
+    "C:\\Users\\laraul\\GitHub\\kisskartan-backend\\KissKartan\\KissKartan.App\\KissKartan.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chrwri\\source\\repos\\kisskartan-backend\\KissKartan\\KissKartan.App\\KissKartan.App.csproj": {
+    "C:\\Users\\laraul\\GitHub\\kisskartan-backend\\KissKartan\\KissKartan.App\\KissKartan.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chrwri\\source\\repos\\kisskartan-backend\\KissKartan\\KissKartan.App\\KissKartan.App.csproj",
+        "projectUniqueName": "C:\\Users\\laraul\\GitHub\\kisskartan-backend\\KissKartan\\KissKartan.App\\KissKartan.App.csproj",
         "projectName": "KissKartan.App",
-        "projectPath": "C:\\Users\\chrwri\\source\\repos\\kisskartan-backend\\KissKartan\\KissKartan.App\\KissKartan.App.csproj",
-        "packagesPath": "C:\\Users\\chrwri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chrwri\\source\\repos\\kisskartan-backend\\KissKartan\\KissKartan.App\\obj\\",
+        "projectPath": "C:\\Users\\laraul\\GitHub\\kisskartan-backend\\KissKartan\\KissKartan.App\\KissKartan.App.csproj",
+        "packagesPath": "C:\\Users\\laraul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\laraul\\GitHub\\kisskartan-backend\\KissKartan\\KissKartan.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\chrwri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\laraul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.115, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

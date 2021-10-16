@@ -17,7 +17,7 @@ namespace KissKartan.API.Controllers
 
         [Route("toilets")]
         [HttpGet]
-        public Toilet [] Toilets()
+        public List<Toilet> Toilets()
         {
             return toiletService.GetAll();
         }
