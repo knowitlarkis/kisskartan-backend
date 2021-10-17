@@ -1,19 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace KissKartan.API.Models
 {
     public class Toilet
     {
         public int Id { get; set; }
-        public string Location { get; set; }
+        public string Position { get; set; }
         public string Description { get; set; }
         public bool IsFree { get; set; }
+        public bool IsPublic { get; set; }
+        public bool IsUrinal { get; set; }
+        public bool IsAccessible { get; set; }
+        public bool IsBaby { get; set; }
         public DateTime LastCleaned { get; set; }
-        public List<TypeProperty> Types { get; set; }
+        public double DistanceTo { get; set; }
     }
 
 }

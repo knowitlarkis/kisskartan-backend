@@ -14,74 +14,42 @@ namespace KissKartan
 {
     public class Program
     {
- 
+
         public static void Main(string[] args)
         {
             ToiletService serv = new ToiletService();
-            RatingService servr = new RatingService();
-            TypePropertyService servt = new TypePropertyService();
-
-            var types = servt.GetAll();
-             TypeProperty ett = types[1];
-             TypeProperty two = types[2];
-
-            List<Toilet> toilets = new List<Toilet>()
-        {
-                //LÄGG TILL LISTA AV TYPEPROPERTIES
-            new Toilet{
-                Location = "59.86029306150929, 17.638249261540285",
-                Description = "Offentlig toalett i St. Per-gallerian, en trappa ner",
-                IsFree = true,
-                LastCleaned = DateTime.Today,
-                Types = new List<TypeProperty> { ett, two }
-            },
-            new Toilet
-            { Location = "59.85821946252539, 17.646533452978318",
-                Description = "Offentlig toalett i stationshuset, bottenplan, kortbetalning",
-                IsFree = false,
-                LastCleaned = DateTime.Today.AddDays(-14),
-                Types = new List<TypeProperty> { ett, two }
-            },
-            new Toilet
-                {Location = "59.85361904298998, 17.61361074332028",
-                Description = "Hemma hos Christoffer, swisha för att komma in",
-                IsFree = false,
-                LastCleaned = DateTime.Today.AddDays(-3),
-                Types = new List<TypeProperty> { ett, two }
-            }
-
-
-        };
+            RatingService servr = new RatingService();         
+            
+            var t = serv.Get(2);
 
             List<Rating> ratings = new List<Rating>()
         {
             new Rating{
+                Id = 1,
                  Stars = 4,
-                Toilet = serv.Get(2)
+                Toilet = t
             },
             new Rating{
+                Id = 2,
                  Stars = 3,
-                Toilet = serv.Get(2)
+                Toilet =  serv.Get(1)
             },
                 new Rating{
+                    Id = 3,
                  Stars = 2,
-                Toilet = serv.Get(2)
+                Toilet =  serv.Get(3)
             },
 
-
         };
-            
+
             //SKAPA EN TYPESERVICE MED GET & GETALL
 
-            foreach (var item in toilets)
-            {
-                serv.Add(item);
-            }
+           
             foreach (var item in ratings)
             {
                 servr.Add(item);
             }
-            //CreateHostBuilder(args).Build().Run();
+            CreateHostBuilder(args).Build().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

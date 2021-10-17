@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KissKartan.API.db;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,28 +9,18 @@ namespace KissKartan.API.Models
 {
     public class ToiletService
     {
-        ToiletContext db = new ToiletContext();
-
+        public ToiletService()
+        {
+            TOILETTABLE.RegisterIds();
+        }
         public List<Toilet> GetAll()
         {
-            return db.Toilets.ToList();
+            return TOILETTABLE.GetAll();
         }
 
         public Toilet Get(int id)
         {
-            return db.Toilets.SingleOrDefault(o => o.Id == id);
-        }
-
-        public void Add(Toilet t)
-        {
-            db.Add(t);
-            db.SaveChanges();
-        }
-
-        public void Remove(Toilet t)
-        {
-            db.Remove(t);
-            db.SaveChanges();
+            return TOILETTABLE.GetAll().SingleOrDefault(o => o.Id == id);
         }
     }
 }

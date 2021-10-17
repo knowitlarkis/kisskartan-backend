@@ -35,6 +35,13 @@ namespace KissKartan.API.Controllers
         {
             return ratingService.GetAverage(toiletId);
         }
+        
+        [Route("toilets/ratings")]
+        [HttpGet]
+        public List<Rating> Rating()
+        {
+            return ratingService.GetAll();
+        }
     
     }
 }
